@@ -5,10 +5,10 @@ import { NavStyled } from "../../components/styles/Nav.styled";
 
 export const Header = () => {
     return (
-        <header className="container flex-shrink py-7">
+        <header className="sm:container px-5 flex-shrink py-7 m-auto">
             <NavStyled>
                 <NavLink to="/">
-                    <h1 className="text-darkBlue text-4xl font-bold">Mop-Blog</h1>
+                    <h1 className="text-darkBlue text-4xl font-bold whitespace-nowrap">Mop-Blog</h1>
                     <h5 className="text-darkBlue text-lg">The moppiest blog</h5>
                 </NavLink>
                 <ul>
